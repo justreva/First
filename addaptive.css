@@ -1,0 +1,71 @@
+/* Large Devices */
+@media only screen and ( max-width: 1200px){
+  header .container{
+    padding: 0 15px;
+  }
+  .main .container{
+    padding: 0 15px;
+  }
+  .logo2{
+    padding: 50px 15px 0 15px;
+  }
+  .content_footer{
+    padding: 0 15px;
+  }
+ .download{
+  padding: 0 15px;
+ }
+ .info{
+  padding: 0 15px;
+ }
+ .search_food{
+  padding: 0 15px;
+ }
+}
+/* Medium Devices */
+@media only screen and ( max-width: 992px){
+
+.block{
+  justify-content: space-evenly;
+}
+.cart:last-child{
+  justify-content: flex-start;
+}
+.restaurant_text{
+  text-align: center;
+}
+}
+/* Small Devices */
+@media only screen and ( max-width: 768px){
+  header .container , .main .container , .logo2 ,
+   .content_footer, .download, .info, .search_food{
+    padding: 0 18px;
+   }
+   .logo2{
+    padding-top: 30px;
+   }
+   .restaurant_text{
+    text-align: center;
+  }
+/* Extra-small(phones) Devices */
+@media only screen and ( max-width: 480px){
+  .basket{
+    display: none;
+  }
+.content_footer{
+  display: block
+}
+.content_footer ul{
+  padding: 0;
+}
+.restaurant_text{
+  text-align: center;
+}
+header .container , .main .container , .logo2 ,
+   .content_footer, .download, .info, .search_food{
+    padding: 0 14px;
+   }
+   .logo2{
+    padding-top: 40px;
+   }
+}

@@ -1,0 +1,253 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  min-width: 320px;
+  background-color: rgb(245, 245, 245);
+box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header .container{
+  display: flex;
+  
+ 
+  align-items: center;
+  height: 72px;
+  justify-content: space-between;
+}
+.items{
+  display: flex;
+}
+.butt{
+  margin-right: 16px;
+}
+button{
+cursor: pointer;
+padding: 14px 20px;
+border: 1px solid #E0E0E0;
+border-radius: 2px;
+}
+button:hover{
+  color: #49A144;
+}
+.basket{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.search_food{
+  margin-top: 32px;
+ 
+}
+section .container{
+  height:48px;
+  display: block;
+
+}
+.line{
+  height: 1px;
+  background: #757575;
+  width: 100%;
+  mix-blend-mode: normal;
+opacity: 0.3;
+}
+#search1{
+  width: 100%;
+  border: none;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #626262;
+outline: none;
+mix-blend-mode: normal;
+opacity: 0.5;
+
+}
+.main{
+  margin-top: 46px;
+  margin-bottom: 80px;
+}
+.main .container{
+  display: block;
+
+}
+.restaurant_text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+color: #1D1D1D;
+
+}
+.block{
+  display: flex;
+padding-top: 16px;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.cart{
+  display: block;
+padding-bottom: 20px;
+cursor: pointer;
+}
+
+.name{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #1D1D1D;
+padding-top: 16px;
+}
+.food{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #626262;
+padding-top: 4px;
+}
+.time{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+padding-top: 4px;
+
+color: #1D1D1D
+}
+
+footer{
+  background: #262626;
+  width: 100%;
+  
+}
+.logo2{
+  padding-top: 50px;
+}
+#line2{
+margin-top: 40px;
+}
+.content_footer{
+  display: flex;
+margin-top: 32px;
+justify-content: space-between;
+}
+
+select{
+  padding: 12px 128px 12px 48px;
+  background: #3B3B3B;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-image: url(img/world.png);
+  background-repeat: no-repeat;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+background-position: center;
+background-position-x: left;
+cursor: pointer;
+}
+.ubereats{
+  margin-top: 35px;
+  display: flex;
+}
+.green{
+  color: #49A144;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.white{
+  color: white;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.media{
+  margin-top: 17px;
+  
+}
+.img1{
+  margin-right: 12px;
+  cursor: pointer;
+}
+.img1:last-child{
+  margin-right: 0px;
+}
+li{
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 23px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+#line3{
+  margin-top: 40px;
+}
+.download{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.appstore{
+  margin-right: 40px;
+  cursor: pointer;
+}
+.playmarket{
+  cursor: pointer;
+}
+#line4{
+  margin-top: 39px;
+}
+.info{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.UBI{
+  color: white;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+}
+.OPD{
+  color: white;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+}
+.PS{
+  color: white;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+}
